@@ -4,6 +4,10 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npx lerna bootstrap"
+  },
   "workspaces": [
 		"packages/*"
 	]

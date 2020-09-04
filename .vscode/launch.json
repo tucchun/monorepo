@@ -7,8 +7,17 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "webpack-dev-server",
       "program": "${workspaceFolder}/packages/wdsdemo/server.js",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "via node",
+      "program": "${workspaceFolder}/packages/wdsdemo/server.node.js",
       "skipFiles": [
         "<node_internals>/**"
       ]

@@ -9,6 +9,7 @@
     "install": "npx lerna bootstrap"
   },
   "workspaces": [
-		"packages/*"
-	]
+    "packages/*"
+  ],
+  "dependencies": {}
 }
